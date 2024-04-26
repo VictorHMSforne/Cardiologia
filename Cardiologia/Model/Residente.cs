@@ -9,6 +9,6 @@ namespace Cardiologia.Model
 {
     public class Residente : Medico
     {
-        public int ano_residencia { get; set; }
+        public DateTime ano_residencia { get; set; }
     }
 }
